@@ -91,10 +91,6 @@
         width: 288px;
     }
 }
-@media screen and (max-width:540px) {
-    #content .places-image{
-        width: 508px;
-    }
-}
+
 
 
