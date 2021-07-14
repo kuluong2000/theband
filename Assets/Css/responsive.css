@@ -1,0 +1,100 @@
+@media screen and (max-width:767px) {
+    .header{
+        max-width: 100%;
+    }
+   nav ul{
+       display: block;
+       width: 100%;
+       background-color: #333;
+       position: absolute;
+       top: 0;
+       right: -100%;
+       transition: all .3s ease-in;
+   }
+   nav ul.isactive{
+    right:0;
+    transition: all .5s ease-in;
+}
+   .search{
+       display: none;
+   }
+   .menu-bar{
+        display: block;
+        z-index: 999;
+        
+   }
+   .sub-menu{
+       left: 30%;
+       top: 40%;
+       width: 100%;
+   }
+   #content .menber-list{
+       display: block;
+   }
+   #content .menber-list{
+    display: block;
+    }
+    #content .menber-item{
+        width: 100%;
+    }
+    #content .menber-img{
+        width: 70%;
+    }
+    #content .places-list{
+        display: block;
+        margin-right: 0;
+        padding: 32px 0px 32px 8px;
+    }
+    
+    #content .places-item{
+        width: 100%;
+        padding: 0 0 0 8px;
+    }
+    #content .places-image{
+        width: 382px;
+        height: auto;
+    }
+    #content .contact-list{
+        display: block;
+    }
+   
+    #content .item{
+        width: 100%;
+    }
+    #content .item:first-child{
+        margin-bottom: 10px;
+    }
+    #content .row {
+        display: flex;
+        flex-direction: column;
+    }
+    #content .row input:nth-child(1){
+        margin-bottom: 10px;
+    }
+    .map{
+        height: 222px;
+    }
+    .footer{
+        padding: 32px 16px;
+    }
+    .footer-text{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width:376px) {
+    #content .places-image{
+        width: 343px;
+    }
+}
+@media screen and (max-width:320px) {
+    #content .places-image{
+        width: 288px;
+    }
+}
+@media screen and (max-width:540px) {
+    #content .places-image{
+        width: 508px;
+    }
+}
+
+
